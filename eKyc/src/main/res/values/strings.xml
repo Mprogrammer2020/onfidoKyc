@@ -1,0 +1,124 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="ekyc_verification">eKYC Verification</string>
+
+    <string name="ekyc">eKYC</string>
+    <string name="let_your_ekyc">Let\'s get your eKYC set up</string>
+    <string name="this_will_only_take">This will only take a few minutes, You\'ll need to:</string>
+    <string name="tell_us">Tell us about yourself</string>
+    <string name="upload_a_few_docs">Upload a few documents</string>
+    <string name="mob_num_verify">Mobile number verification</string>
+    <string name="take_selfie">Take a selfie and a video</string>
+    <string name="do_it_later"><u>Do it later</u></string>
+    <string name="continue_txt">Continue</string>
+    <string name="not_now">Not Now</string>
+
+    <string name="tell_us_one">Tell us about yourself</string>
+    <string name="update_info">Update Info</string>
+    <string name="update">Update</string>
+    <string name="just_follow">Just follow three steps below to tell us about yourself</string>
+    <string name="step_1">1</string>
+    <string name="step_2">2</string>
+    <string name="step_3">3</string>
+    <string name="req_fields">Required fields</string>
+    <string name="ast">*</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name (Surname)</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="next_txt">Next</string>
+    <string name="prev_txt">Previous</string>
+
+    <string name="mob_ver_two">Mobile number verification (Step 2 of 4)</string>
+    <string name="mob_ver_two_sim">Mobile number verification</string>
+    <string name="e_g_first_name">E.g. Kim</string>
+    <string name="e_g_middle_name">E.g. Elizabeth</string>
+    <string name="e_g_last_name">E.g. Smith</string>
+
+    <string name="email_address">Email Address</string>
+    <string name="e_g_email">E.g. kim_smith007@gmail.com</string>
+
+    <string name="mob_number">Mobile Number</string>
+    <string name="e_g_mob" tools:ignore="TypographyDashes">E.g. 987-6543-210</string>
+
+    <string name="dob">Date Of Birth</string>
+    <string name="dob_format">DD/MM/YYYY</string>
+
+    <string name="gender">Gender</string>
+
+    <string name="country_of_citizenship">Country Of Citizenship</string>
+    <string name="country_of_residence">Country Of Residence</string>
+    <string name="city">City</string>
+    <string name="town">Town</string>
+    <string name="address">Address</string>
+    <string name="building_number">Building Number</string>
+    <string name="street">Street</string>
+    <string name="zip">Zip/Postal Code</string>
+    <string name="e_g_city">E.g. California</string>
+    <string name="e_g_address">E.g. 1639 Stroop Hill Road</string>
+    <string name="e_g_street">E.g. Main Street</string>
+    <string name="e_g_zip">E.g. 90001</string>
+
+    <string name="upload_doc">Upload a few documents (Step 3 of 4)</string>
+    <string name="upload_some_doc">Upload some of the documents mention below.</string>
+    <string name="cust_id">Customer\'s ID or Passport</string>
+    <string name="upload"><u>+ Upload</u></string>
+    <string name="upload_side_one"><u>+ Upload Front Side</u></string>
+    <string name="upload_side_two"><u>+ Upload Back Side</u></string>
+    <string name="upload_again"><u>+ Upload Again</u></string>
+    <string name="uploaded">✔ Uploaded</string>
+    <string name="bank_doc">Bank statement or Address proof</string>
+    <string name="income_statement">Income statement</string>
+
+
+    <string name="take_selfie_or_vid">Take a selfie and a video (Step 4 of 4)</string>
+    <string name="one_last">One last step!</string>
+    <string name="one_last_two">&#160;Take a selfie and a video.</string>
+    <string name="take_a_selfie">Take a selfie</string>
+    <string name="take_a_video">Take a 20 seconds video</string>
+    <string name="we_will_send_you_an">We will send you an&#160;</string>
+    <string name="on_this_mobile_number">on this mobile number.</string>
+    <string name="one_time_password_otp">One Time Password (OTP)</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="please_type_the_verification_code">Please type the verification code</string>
+    <string name="x_x_x_x_x_x">X-X-X-X-X-X</string>
+
+    <string name="skip"><u>Skip this step</u></string>
+    <string name="go_to_home">Go To Home</string>
+    <string name="your_ekyc_information_has_been_nsubmitted_successfully">Your eKYC information has been\nsubmitted successfully.</string>
+    <string name="congratulations">Congratulations</string>
+
+    <string name="please_ensure_that_your_whole_face_is_in_the_image">Please ensure that your whole face is in the image.</string>
+    <string name="selfie_instructions">Selfie Instructions</string>
+    <string name="video_instructions">Video Instructions</string>
+    <string name="agree">Agree</string>
+    <string name="not_agree">Not Agree</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="internet_error">Internet not available, Cross check your internet connectivity and try again</string>
+    <string name="search">Search</string>
+    <string name="no_results_found">No Results Found.</string>
+    <string name="resend_otp">Resend OTP</string>
+
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="lbl_set_choose_option">Choose an option</string>
+    <string name="lbl_set_doc_photo">Set document image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+
+    <string name="dialog_permission_title">Grant Permissions</string>
+    <string name="dialog_permission_message">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="go_to_settings">GOTO SETTINGS</string>
+    <string name="submit">Submit</string>
+    <string name="occupation">Occupation</string>
+
+    <string name="check_box_line_one_">Check here to indicate that you have read, understand and agree to eFX Terms and Conditions and Privacy Policy.</string>
+    <string name="check_box_line_one">Check here to indicate that you have read, understand and agree to eFX <u><font color="#007BB1"><a href='https://www.e-fx.my/terms-of-use'>Terms and Conditions</a></font></u> and <u><font color="#007BB1"><a href='https://www.e-fx.my/privacy-policy'>Privacy Policy.</a></font></u></string>
+    <string name="check_box_line_two">I also want to receive marketing materials and communications from eFX and its affiliated companies.</string>
+    <string name="third_party_disclaimer">All verification process are performed by Onfido, by clicking "\"Proceed\"", you will be confirming that you have read and agreed to the Terms and Conditions and Privacy Policy.</string>
+    <string name="terms_and_conditions_and_privacy_policy">Terms and Conditions, and Privacy Policy.</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="malaysia">Malaysia</string>
+
+</resources>

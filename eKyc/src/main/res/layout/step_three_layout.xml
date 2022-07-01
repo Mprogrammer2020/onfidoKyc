@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:elevation="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/_6sdp"
+            app:cardPreventCornerOverlap="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewKyc"
+                        android:text="@string/country_of_citizenship"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <TextView
+                        android:id="@+id/astCC"
+                        style="@style/TextViewKyc"
+                        android:text="@string/ast"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="@dimen/_9sdp" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/countryClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/countryTxt"
+                        style="@style/TextViewKyc"
+                        android:layout_height="@dimen/_25sdp"
+                        android:gravity="center_vertical"
+                        android:text="Select Country" />
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/ic_down_arrow" />
+
+                </RelativeLayout>
+
+                <Spinner
+                    android:id="@+id/countryPicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@null" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:elevation="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/_6sdp"
+            app:cardPreventCornerOverlap="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewKyc"
+                        android:text="@string/country_of_residence"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <TextView
+                        android:id="@+id/astCR"
+                        style="@style/TextViewKyc"
+                        android:text="@string/ast"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="@dimen/_9sdp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/countryResClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/countryResTxt"
+                        style="@style/TextViewKyc"
+                        android:layout_height="@dimen/_25sdp"
+                        android:gravity="center_vertical"
+                        android:text="Select Country" />
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/ic_down_arrow" />
+
+                </RelativeLayout>
+
+                <Spinner
+                    android:id="@+id/countryResPicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@null" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:elevation="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/_6sdp"
+            app:cardPreventCornerOverlap="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewKyc"
+                        android:layout_width="match_parent"
+                        android:text="@string/building_number"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <TextView
+                        android:id="@+id/astAdd"
+                        style="@style/TextViewKyc"
+                        android:text="@string/ast"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="@dimen/_9sdp" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/addressET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@null"
+                    android:fontFamily="@font/helvetica_regular"
+                    android:hint="@string/e_g_address"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:elevation="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/_6sdp"
+            app:cardPreventCornerOverlap="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewKyc"
+                        android:layout_width="match_parent"
+                        android:text="@string/street"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <TextView
+                        android:id="@+id/astStreet"
+                        style="@style/TextViewKyc"
+                        android:text="@string/ast"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="@dimen/_9sdp" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/streetET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@null"
+                    android:fontFamily="@font/helvetica_regular"
+                    android:hint="@string/e_g_street"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:elevation="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/_6sdp"
+            app:cardPreventCornerOverlap="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewKyc"
+                        android:text="@string/town"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <TextView
+                        android:id="@+id/astCity"
+                        style="@style/TextViewKyc"
+                        android:text="@string/ast"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="@dimen/_9sdp" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/cityET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@null"
+                    android:fontFamily="@font/helvetica_regular"
+                    android:hint="@string/e_g_city"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:elevation="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/_6sdp"
+            app:cardPreventCornerOverlap="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewKyc"
+                        android:text="@string/zip"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <TextView
+                        android:id="@+id/astZip"
+                        style="@style/TextViewKyc"
+                        android:text="@string/ast"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="@dimen/_9sdp" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/zipET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@null"
+                    android:fontFamily="@font/helvetica_regular"
+                    android:hint="@string/e_g_zip"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</layout>
