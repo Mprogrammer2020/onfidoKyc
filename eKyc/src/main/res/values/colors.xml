@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorPrimaryDarkTrans">#8000B3E6</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorEfxYellow">#FFD268</color>
+    <color name="colorEfxBlue">#00A8E3</color>
+    <color name="colorButtonText">#795B27</color>
+    <color name="startColorToolbar">#00A3E1</color>
+    <color name="endColorToolbar">#00B3E6</color>
+    <color name="grey">#E8E8E8</color>
+    <color name="textColor">#475174</color>
+    <color name="hintColor">#A5ABB5</color>
+    <color name="greenColor">#55D44C</color>
+    <color name="greenColorTrans">#F0FFEE</color>
+
+    <color name="onfidoPrimaryButtonColor">#00A8E3</color>
+    <color name="onfidoPrimaryButtonTextColor">#FFFFFF</color>
+    <color name="onfidoPrimaryButtonColorPressed">#00A8E3</color>
+    <color name="onfidoColorPrimary">#00A8E3</color>
+    <color name="onfidoColorPrimaryDark">#00A3E1</color>
+    <color name="onfidoTextColorPrimary">#FFFFFF</color>
+    <color name="onfidoColorAccent">#FFD268</color>
+</resources>
